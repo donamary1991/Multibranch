@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Prod Environment') {
+        stage('dev Environment') {
             steps {
-              sh "echo MainBranch"              
+              sh "echo devBranch"              
               }
              }
             }
